@@ -10,22 +10,22 @@ importers:
     dependencies:
       '@ai-sdk/openai':
         specifier: 4.0.8
-        version: 4.0.8(zod@4.3.6)
+        version: 4.0.8(zod@4.6.6)
       '@github-tools/eve-extension':
         specifier: ^0.3.2
-        version: 0.3.2(@vercel/connect@0.4.2(ai@7.0.58(zod@4.3.6))(eve@0.44.4(@vercel/blob@2.4.0)(ai@7.0.58(zod@4.3.6))(drizzle-orm@0.45.2(@neondatabase/serverless@1.1.0))(microsandbox@0.6.12)))(ai@7.0.58(zod@4.3.6))(eve@0.44.4(@vercel/blob@2.4.0)(ai@7.0.58(zod@4.3.6))(drizzle-orm@0.45.2(@neondatabase/serverless@1.1.0))(microsandbox@0.6.12))
+        version: 0.3.2(@vercel/connect@0.4.2(ai@7.0.58(zod@4.6.6))(eve@0.44.4(@vercel/blob@2.4.0)(ai@7.0.58(zod@4.6.6))(drizzle-orm@0.45.2(@neondatabase/serverless@1.1.0))(microsandbox@0.6.12)))(ai@7.0.58(zod@4.6.6))(eve@0.44.4(@vercel/blob@2.4.0)(ai@7.0.58(zod@4.6.6))(drizzle-orm@0.45.2(@neondatabase/serverless@1.1.0))(microsandbox@0.6.12))
       '@vercel/blob':
         specifier: 2.4.0
         version: 2.4.0
       '@vercel/connect':
         specifier: 0.4.2
-        version: 0.4.2(ai@7.0.58(zod@4.3.6))(eve@0.44.4(@vercel/blob@2.4.0)(ai@7.0.58(zod@4.3.6))(drizzle-orm@0.45.2(@neondatabase/serverless@1.1.0))(microsandbox@0.6.12))
+        version: 0.4.2(ai@7.0.58(zod@4.6.6))(eve@0.44.4(@vercel/blob@2.4.0)(ai@7.0.58(zod@4.6.6))(drizzle-orm@0.45.2(@neondatabase/serverless@1.1.0))(microsandbox@0.6.12))
       eve:
         specifier: 0.44.4
-        version: 0.44.4(@vercel/blob@2.4.0)(ai@7.0.58(zod@4.3.6))(drizzle-orm@0.45.2(@neondatabase/serverless@1.1.0))(microsandbox@0.6.12)
+        version: 0.44.4(@vercel/blob@2.4.0)(ai@7.0.58(zod@4.6.6))(drizzle-orm@0.45.2(@neondatabase/serverless@1.1.0))(microsandbox@0.6.12)
       zod:
-        specifier: 4.3.6
-        version: 4.3.6
+        specifier: 4.6.6
+        version: 4.6.6
     devDependencies:
       '@biomejs/biome':
         specifier: ^2.5.9
@@ -1407,8 +1407,8 @@ packages:
     resolution: {integrity: sha512-LIY910g9TI13YS95lrMFrs8Rm/u/irgHeTWoKCoteeJ04CUJ92eEfj0rVn+7VKMPBpUPiUoBKfhNyLI23EE/KA==}
     engines: {node: '>=18.17'}
 
-  undici@7.29.0:
-    resolution: {integrity: sha512-IDxfleLmmbSskfWSUATiN1nfn2rDuvnMOqb5CWR92iIfojA0Ud+ulOAAEQ57LPr9rWmsreUyf5lwyao+7GNNVw==}
+  undici@7.30.1:
+    resolution: {integrity: sha512-03KrMbjIFDWQR5RNPrSw3bd1r12JpyFQl9/yxjUbJtqkjmllqC5lFjZh6ujeuJCKr8EOQvRW872Oy/az+nLYxg==}
     engines: {node: '>=20.18.1'}
 
   undici@8.9.0:
@@ -1536,43 +1536,40 @@ packages:
   zod@4.1.11:
     resolution: {integrity: sha512-WPsqwxITS2tzx1bzhIKsEs19ABD5vmCVa4xBo2tq/SrV4RNZtfws1EnCWQXM6yh8bD08a1idvkB5MZSBiZsjwg==}
 
-  zod@4.3.6:
-    resolution: {integrity: sha512-rftlrkhHZOcjDwkGlnUtZZkvaPHCsDATp4pGpuOOMDaTdDDXF91wuVDJoWoPsKX/3YPQ5fHuF3STjcYyKr+Qhg==}
-
-  zod@4.4.3:
-    resolution: {integrity: sha512-ytENFjIJFl2UwYglde2jchW2Hwm4GJFLDiSXWdTrJQBIN9Fcyp7n4DhxJEiWNAJMV1/BqWfW/kkg71UDcHJyTQ==}
+  zod@4.6.6:
+    resolution: {integrity: sha512-4UmzQUF5fxvfcYHlbjBmejU+w+hbDnWFx4aS8kBx7nPBHcO2SqPbpAG8snbdg+Xse4pRefR98hgjFgIMCI/UhA==}
 
 snapshots:
 
-  '@ai-sdk/gateway@4.0.46(zod@4.3.6)':
+  '@ai-sdk/gateway@4.0.46(zod@4.6.6)':
     dependencies:
       '@ai-sdk/provider': 4.0.7
-      '@ai-sdk/provider-utils': 5.0.25(zod@4.3.6)
+      '@ai-sdk/provider-utils': 5.0.25(zod@4.6.6)
       '@vercel/oidc': 3.2.0
-      zod: 4.3.6
+      zod: 4.6.6
 
-  '@ai-sdk/openai@4.0.8(zod@4.3.6)':
+  '@ai-sdk/openai@4.0.8(zod@4.6.6)':
     dependencies:
       '@ai-sdk/provider': 4.0.2
-      '@ai-sdk/provider-utils': 5.0.5(zod@4.3.6)
-      zod: 4.3.6
+      '@ai-sdk/provider-utils': 5.0.5(zod@4.6.6)
+      zod: 4.6.6
 
-  '@ai-sdk/provider-utils@5.0.25(zod@4.3.6)':
+  '@ai-sdk/provider-utils@5.0.25(zod@4.6.6)':
     dependencies:
       '@ai-sdk/provider': 4.0.7
       '@standard-schema/spec': 1.1.0
       '@workflow/serde': 4.1.0
       eventsource-parser: 3.1.1
-      undici: 7.29.0
-      zod: 4.3.6
+      undici: 7.30.1
+      zod: 4.6.6
 
-  '@ai-sdk/provider-utils@5.0.5(zod@4.3.6)':
+  '@ai-sdk/provider-utils@5.0.5(zod@4.6.6)':
     dependencies:
       '@ai-sdk/provider': 4.0.2
       '@standard-schema/spec': 1.1.0
       '@workflow/serde': 4.1.0
       eventsource-parser: 3.1.1
-      zod: 4.3.6
+      zod: 4.6.6
 
   '@ai-sdk/provider@4.0.2':
     dependencies:
@@ -1642,27 +1639,27 @@ snapshots:
       fast-wrap-ansi: 0.2.2
       sisteransi: 1.0.5
 
-  '@github-tools/eve-extension@0.3.2(@vercel/connect@0.4.2(ai@7.0.58(zod@4.3.6))(eve@0.44.4(@vercel/blob@2.4.0)(ai@7.0.58(zod@4.3.6))(drizzle-orm@0.45.2(@neondatabase/serverless@1.1.0))(microsandbox@0.6.12)))(ai@7.0.58(zod@4.3.6))(eve@0.44.4(@vercel/blob@2.4.0)(ai@7.0.58(zod@4.3.6))(drizzle-orm@0.45.2(@neondatabase/serverless@1.1.0))(microsandbox@0.6.12))':
+  '@github-tools/eve-extension@0.3.2(@vercel/connect@0.4.2(ai@7.0.58(zod@4.6.6))(eve@0.44.4(@vercel/blob@2.4.0)(ai@7.0.58(zod@4.6.6))(drizzle-orm@0.45.2(@neondatabase/serverless@1.1.0))(microsandbox@0.6.12)))(ai@7.0.58(zod@4.6.6))(eve@0.44.4(@vercel/blob@2.4.0)(ai@7.0.58(zod@4.6.6))(drizzle-orm@0.45.2(@neondatabase/serverless@1.1.0))(microsandbox@0.6.12))':
     dependencies:
-      '@github-tools/sdk': 1.11.1(@vercel/connect@0.4.2(ai@7.0.58(zod@4.3.6))(eve@0.44.4(@vercel/blob@2.4.0)(ai@7.0.58(zod@4.3.6))(drizzle-orm@0.45.2(@neondatabase/serverless@1.1.0))(microsandbox@0.6.12)))(ai@7.0.58(zod@4.3.6))(eve@0.44.4(@vercel/blob@2.4.0)(ai@7.0.58(zod@4.3.6))(drizzle-orm@0.45.2(@neondatabase/serverless@1.1.0))(microsandbox@0.6.12))(zod@4.3.6)
-      eve: 0.44.4(@vercel/blob@2.4.0)(ai@7.0.58(zod@4.3.6))(drizzle-orm@0.45.2(@neondatabase/serverless@1.1.0))(microsandbox@0.6.12)
-      zod: 4.3.6
+      '@github-tools/sdk': 1.11.1(@vercel/connect@0.4.2(ai@7.0.58(zod@4.6.6))(eve@0.44.4(@vercel/blob@2.4.0)(ai@7.0.58(zod@4.6.6))(drizzle-orm@0.45.2(@neondatabase/serverless@1.1.0))(microsandbox@0.6.12)))(ai@7.0.58(zod@4.6.6))(eve@0.44.4(@vercel/blob@2.4.0)(ai@7.0.58(zod@4.6.6))(drizzle-orm@0.45.2(@neondatabase/serverless@1.1.0))(microsandbox@0.6.12))(zod@4.6.6)
+      eve: 0.44.4(@vercel/blob@2.4.0)(ai@7.0.58(zod@4.6.6))(drizzle-orm@0.45.2(@neondatabase/serverless@1.1.0))(microsandbox@0.6.12)
+      zod: 4.6.6
     optionalDependencies:
-      '@vercel/connect': 0.4.2(ai@7.0.58(zod@4.3.6))(eve@0.44.4(@vercel/blob@2.4.0)(ai@7.0.58(zod@4.3.6))(drizzle-orm@0.45.2(@neondatabase/serverless@1.1.0))(microsandbox@0.6.12))
+      '@vercel/connect': 0.4.2(ai@7.0.58(zod@4.6.6))(eve@0.44.4(@vercel/blob@2.4.0)(ai@7.0.58(zod@4.6.6))(drizzle-orm@0.45.2(@neondatabase/serverless@1.1.0))(microsandbox@0.6.12))
     transitivePeerDependencies:
       - '@ai-sdk/workflow'
       - '@workflow/ai'
       - ai
       - workflow
 
-  '@github-tools/sdk@1.11.1(@vercel/connect@0.4.2(ai@7.0.58(zod@4.3.6))(eve@0.44.4(@vercel/blob@2.4.0)(ai@7.0.58(zod@4.3.6))(drizzle-orm@0.45.2(@neondatabase/serverless@1.1.0))(microsandbox@0.6.12)))(ai@7.0.58(zod@4.3.6))(eve@0.44.4(@vercel/blob@2.4.0)(ai@7.0.58(zod@4.3.6))(drizzle-orm@0.45.2(@neondatabase/serverless@1.1.0))(microsandbox@0.6.12))(zod@4.3.6)':
+  '@github-tools/sdk@1.11.1(@vercel/connect@0.4.2(ai@7.0.58(zod@4.6.6))(eve@0.44.4(@vercel/blob@2.4.0)(ai@7.0.58(zod@4.6.6))(drizzle-orm@0.45.2(@neondatabase/serverless@1.1.0))(microsandbox@0.6.12)))(ai@7.0.58(zod@4.6.6))(eve@0.44.4(@vercel/blob@2.4.0)(ai@7.0.58(zod@4.6.6))(drizzle-orm@0.45.2(@neondatabase/serverless@1.1.0))(microsandbox@0.6.12))(zod@4.6.6)':
     dependencies:
-      ai: 7.0.58(zod@4.3.6)
+      ai: 7.0.58(zod@4.6.6)
       octokit: 5.0.5
-      zod: 4.3.6
+      zod: 4.6.6
     optionalDependencies:
-      '@vercel/connect': 0.4.2(ai@7.0.58(zod@4.3.6))(eve@0.44.4(@vercel/blob@2.4.0)(ai@7.0.58(zod@4.3.6))(drizzle-orm@0.45.2(@neondatabase/serverless@1.1.0))(microsandbox@0.6.12))
-      eve: 0.44.4(@vercel/blob@2.4.0)(ai@7.0.58(zod@4.3.6))(drizzle-orm@0.45.2(@neondatabase/serverless@1.1.0))(microsandbox@0.6.12)
+      '@vercel/connect': 0.4.2(ai@7.0.58(zod@4.6.6))(eve@0.44.4(@vercel/blob@2.4.0)(ai@7.0.58(zod@4.6.6))(drizzle-orm@0.45.2(@neondatabase/serverless@1.1.0))(microsandbox@0.6.12))
+      eve: 0.44.4(@vercel/blob@2.4.0)(ai@7.0.58(zod@4.6.6))(drizzle-orm@0.45.2(@neondatabase/serverless@1.1.0))(microsandbox@0.6.12)
 
   '@neondatabase/serverless@1.1.0':
     optional: true
@@ -2048,12 +2045,12 @@ snapshots:
     dependencies:
       execa: 5.1.1
 
-  '@vercel/connect@0.4.2(ai@7.0.58(zod@4.3.6))(eve@0.44.4(@vercel/blob@2.4.0)(ai@7.0.58(zod@4.3.6))(drizzle-orm@0.45.2(@neondatabase/serverless@1.1.0))(microsandbox@0.6.12))':
+  '@vercel/connect@0.4.2(ai@7.0.58(zod@4.6.6))(eve@0.44.4(@vercel/blob@2.4.0)(ai@7.0.58(zod@4.6.6))(drizzle-orm@0.45.2(@neondatabase/serverless@1.1.0))(microsandbox@0.6.12))':
     dependencies:
       '@vercel/oidc': 3.8.0
     optionalDependencies:
-      ai: 7.0.58(zod@4.3.6)
-      eve: 0.44.4(@vercel/blob@2.4.0)(ai@7.0.58(zod@4.3.6))(drizzle-orm@0.45.2(@neondatabase/serverless@1.1.0))(microsandbox@0.6.12)
+      ai: 7.0.58(zod@4.6.6)
+      eve: 0.44.4(@vercel/blob@2.4.0)(ai@7.0.58(zod@4.6.6))(drizzle-orm@0.45.2(@neondatabase/serverless@1.1.0))(microsandbox@0.6.12)
 
   '@vercel/oidc@3.2.0': {}
 
@@ -2067,12 +2064,12 @@ snapshots:
 
   acorn@8.18.0: {}
 
-  ai@7.0.58(zod@4.3.6):
+  ai@7.0.58(zod@4.6.6):
     dependencies:
-      '@ai-sdk/gateway': 4.0.46(zod@4.3.6)
+      '@ai-sdk/gateway': 4.0.46(zod@4.6.6)
       '@ai-sdk/provider': 4.0.7
-      '@ai-sdk/provider-utils': 5.0.25(zod@4.3.6)
-      zod: 4.3.6
+      '@ai-sdk/provider-utils': 5.0.25(zod@4.6.6)
+      zod: 4.6.6
 
   ansi-escapes@7.3.0:
     dependencies:
@@ -2145,9 +2142,9 @@ snapshots:
 
   environment@1.1.0: {}
 
-  eve@0.44.4(@vercel/blob@2.4.0)(ai@7.0.58(zod@4.3.6))(drizzle-orm@0.45.2(@neondatabase/serverless@1.1.0))(microsandbox@0.6.12):
+  eve@0.44.4(@vercel/blob@2.4.0)(ai@7.0.58(zod@4.6.6))(drizzle-orm@0.45.2(@neondatabase/serverless@1.1.0))(microsandbox@0.6.12):
     dependencies:
-      ai: 7.0.58(zod@4.3.6)
+      ai: 7.0.58(zod@4.6.6)
       nitro: 3.0.260610-beta(@vercel/blob@2.4.0)(drizzle-orm@0.45.2(@neondatabase/serverless@1.1.0))
       undici: 8.9.0
     optionalDependencies:
@@ -2635,7 +2632,7 @@ snapshots:
       resolve.exports: 2.0.3
       string-width: 8.2.2
       yaml: 2.9.0
-      zod: 4.4.3
+      zod: 4.6.6
     optionalDependencies:
       oxfmt: 0.52.0
 
@@ -2643,7 +2640,7 @@ snapshots:
 
   undici@6.28.0: {}
 
-  undici@7.29.0: {}
+  undici@7.30.1: {}
 
   undici@8.9.0: {}
 
@@ -2689,6 +2686,4 @@ snapshots:
 
   zod@4.1.11: {}
 
-  zod@4.3.6: {}
-
-  zod@4.4.3: {}
+  zod@4.6.6: {}
